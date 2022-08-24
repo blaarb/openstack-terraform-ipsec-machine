@@ -1,5 +1,7 @@
 # openstack-terraform-ipsec-machine
-Example terraform role for deploying ipsec machine (libreswan + certmonger) in openstack cloud
+Example terraform role for deploying ipsec machine (libreswan + certmonger) in openstack cloud. The templates are based on the following public tutorials:
+- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/securing_networks/configuring-a-vpn-with-ipsec_securing-networks
+- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/certmongerx
 
 #### shared.tf
 This file contains variables and network definitions shared between both machines.
